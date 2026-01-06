@@ -1,0 +1,55 @@
+# FinVault - Financial Agent Safety Evaluation Benchmark
+# Python 3.9+
+
+# Core Dependencies
+python-dotenv>=1.0.0
+pyyaml>=6.0
+tqdm>=4.66.0
+
+# LLM & API Integration
+openai>=1.3.0
+qwen-python-sdk>=0.0.1
+anthropic>=0.25.0
+requests>=2.31.0
+aiohttp>=3.9.0
+
+# Data Processing & Analysis
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Deep Learning & Model Loading
+torch>=2.0.0
+transformers>=4.35.0
+huggingface-hub>=0.17.0
+
+# Safety & Security Models
+llama-guard>=0.1.0  # LLaMA Guard 3
+
+# Utilities
+dataclasses-json>=0.6.0
+typing-extensions>=4.8.0
+pydantic>=2.0.0
+functools-lru-cache>=1.6.4
+tenacity>=8.2.3
+
+# Testing & Development (Optional)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+black>=23.10.0
+flake8>=6.1.0
+isort>=5.12.0
+mypy>=1.6.0
+
+# Jupyter Support (Optional)
+jupyter>=1.0.0
+notebook>=7.0.0
+ipython>=8.15.0
+
+# Performance Profiling (Optional)
+memory-profiler>=0.61.0
+line-profiler>=4.1.0
