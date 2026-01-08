@@ -30,7 +30,6 @@ finvault/
 │   ├── run_llama_guard3_test.py    # LLaMA Guard 3 evaluation
 │   ├── run_gpt_oss_safeguard_test.py  # GPT-OSS-Safeguard evaluation
 │   └── requirements.txt             # Dependencies
-└── translate_zh_CN 2/               # Paper source (LaTeX)
 ```
 
 ## Quick Start
@@ -142,8 +141,9 @@ python run_gpt_oss_safeguard_test.py --attack-type authority_impersonation --all
 | Method | Detection Rate | False Positive Rate |
 |--------|:----:|:----:|
 | Security Prompting | ~89% | Low |
-| LLaMA Guard 3 | ~75% | ~5% |
-| GPT-OSS-Safeguard | ~68% | ~8% |
+| LLaMA Guard 4 | ~61% | ~30% |
+| GPT-OSS-Safeguard | ~22% | ~12% |
+| LLaMA Guard 3 | ~37% | ~44% |
 
 **Recommendation:** Security prompting offers the best cost-effectiveness (no overhead, high detection rate)
 
@@ -176,7 +176,7 @@ agents:
 ```
 
 Supported providers:
-- OpenAI (GPT-4, GPT-3.5, etc.)
+- OpenAI (GPT-5, GPT-4o, etc.)
 - Qwen (Local deployment)
 - Anthropic (Claude series)
 - DeepSeek
