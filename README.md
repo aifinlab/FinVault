@@ -221,14 +221,7 @@ Supported providers:
 If you use FinVault in your research, please cite our paper:
 
 ```bibtex
-@article{Yang_2025_Finvault,
-  title={FinVault: Benchmarking Financial Agent Safety in Execution-Grounded Environments},
-  author={Zhi Yang and Runguo Li and Qiqi Qiang and Jiashun Wang and Fangqi Lou and Mengping Li and Dongpo Cheng and Rui Xu and Heng Lian and Shuo Zhang and Xiaolong Liang and Xiaoming Huang and Zheng Wei and Zhaowei Liu and Xin Guo and Huacan Wang and Ronghao Chen and Liwen Zhang},
-  year={2026},
-  eprint={2601.07853},
-  archivePrefix={arXiv},
-  primaryClass={cs.AI}
-}
+comming soon
 ```
 
 ## License
